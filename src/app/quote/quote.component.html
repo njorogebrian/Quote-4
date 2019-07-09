@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="head">Quotes</h1>
+        <p class="mantra">Feel inspired</p>
+    </div>
+</div>
+
+<div class="card" *ngFor='let quote of quotes;let i = index'>
+    <div class="card-body">
+        <h3 class="card-titl-e">{{quote.name}}</h3>
+        
+
+        <div class="row" *ngFor="let quote of quotes;let i ='index'">
+
+            <app-quote-details [quote] = 'quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
+        
+        </div>
+        <button (click)='upvote(i)' class="btn btn-success" id="amazing">amazing :)</button>
+        <br>
+        <button (click)='downvote(i)' class="btn btn-warning" id="wat">wat are those :(</button>
+        <br>
+
+
+    </div>
+</div>
+
+      
+ <div class="container">
+    <div class="row">
+        <app-add-form (addQuote)="addNewQuote($event)"></app-add-form>
+      
+    </div>
+</div>
