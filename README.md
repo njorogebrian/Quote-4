@@ -16,7 +16,7 @@ On loading the page, you will find the landing page. On scrolling down you will 
 ## Technologies Used
 HTML was used to create the body, CSS to style it and Angular.
 ## Support and contact details
-In case of anything feel free to get in touch at berylonyancha@gmail.com
+In case of anything feel free to get in touch at briannjoroge2000@gmail.com
 ### License
 *MIT*
 Copyright (c) {2019} **brian njoroge** 
