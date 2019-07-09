@@ -19,7 +19,7 @@ HTML was used to create the body, CSS to style it and Angular.
 In case of anything feel free to get in touch at berylonyancha@gmail.com
 ### License
 *MIT*
-Copyright (c) {2019} **brian njoroge** https://github.com/berylonyancha/quotes/blob/master/LICENSE
+Copyright (c) {2019} **brian njoroge** 
 
 ## Development server
 
