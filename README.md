@@ -9,14 +9,14 @@ On loading the page, you will find the landing page. On scrolling down you will 
 ## Behavior driven development
 |Behavior|Input|Output|
 |:-------|-----:|:------|
-|Click| click success| yaaay: 1 |
-|Click| click watv are these| booo: 1 |
+|Click| click success| success: 1 |
+|Click| click watv are these| no: 1 |
 |Click| click delete| quote is deleted|
 
 ## Technologies Used
 HTML was used to create the body, CSS to style it and Angular.
 ## Support and contact details
-In case of anything feel free to get in touch at briannjoroge200@gmail.com
+In case of anything feel free to get in touch at briannjoroge2000@gmail.com
 ### License
 *MIT*
 Copyright (c) {2019} **brian njoroge** 
